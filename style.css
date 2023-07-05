@@ -1,0 +1,346 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(28, 3, 52);
+    font-family: tahoma;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgb(58, 4, 108);
+}
+
+.left
+{
+    color: #fff;
+    margin: 2% 10%;
+    background-color: rgb(58, 4, 108);
+    font-size: 1.3rem;
+}
+
+.left span
+{
+    background-color: rgb(58, 4, 108);
+    color: rgb(175, 100, 245);
+}
+
+.right
+{
+    margin-right: 11%;
+    margin-top: 2%;
+    background-color: rgb(58, 4, 108);
+}
+
+.right nav ul
+{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+}
+
+.right nav ul li a
+{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    background-color: rgb(58, 4, 108);
+}
+
+.right nav ul li a:hover
+{
+    font-size: 1.3rem;
+    color: #fce5e5;
+}
+
+/* first section start here */
+.first
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 0;
+}
+
+.leftsec
+{
+    width: 50%;
+    margin-left: 10%;
+    font-size: 2rem;
+    color: #fff;
+    line-height: 48px;
+    margin-top: 1%;
+}
+
+.purple
+{
+    color: rgb(175, 100, 245);
+}
+
+#element
+{
+    color: rgb(175, 100, 245);
+}
+
+.rightsec
+{
+    width: 50%;
+}
+
+.rightsec img
+{
+    width: 70%;
+    margin-top: -38px;
+}
+
+.secent
+{
+    height: 120px;
+}
+
+.secent hr
+{
+    width: 80%;
+    margin-left: 10%;
+    color: rgb(175, 100, 245);
+}
+
+.secent p
+{
+    font-size: 1rem;
+    color: rgb(175, 100, 245);
+    margin-left: 13%;
+    margin-top: 10px;
+}
+
+.secent h1
+{
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 13%;
+    margin-top: 3px;
+}
+
+/* ext start here */
+.exp
+{
+    display: flex;
+    height: 400px;
+}
+
+.exp1
+{
+    display: flex;
+    margin-left: 10%;
+}
+
+.exp2
+{
+    display: flex;
+}
+
+/* exp1 */
+.exp1 img
+{
+    width: 60px;
+}
+
+.exp1 h2
+{
+    font-size: 1.5rem;
+    margin-top: 4%;
+    color: rgb(175, 100, 245);
+}
+
+.exp1 p
+{
+    margin-top: 2%;
+    font-size: 1rem;
+    color: #fff;
+    width: 84%;
+}
+
+/* exp2 */
+.exp2 img
+{
+    width: 60px;
+}
+
+.exp2 h2
+{
+    font-size: 1.5rem;
+    margin-top: 4%;
+    color: rgb(175, 100, 245);
+}
+
+.exp2 p
+{
+    margin-top: 2%;
+    font-size: 1rem;
+    color: #fff;
+    width: 84%;
+}
+
+/* tailwind */
+.tailwind
+{
+    margin-top: 4%;
+}
+
+.exp hr
+{
+    width: 77%;
+    margin-left: -2%;
+    color: rgb(175, 100, 245);
+    margin-top: 7%;
+}
+
+/* intro */
+.intro
+{
+    margin: auto;
+    text-align: center;
+}
+
+.intro h1
+{
+    font-size: 1.5rem;
+    color: #ffff;
+}
+
+.intro h2
+{
+    font-size: 1rem;
+    color: rgb(175, 100, 245);
+    margin-top: 7px;
+}
+
+/* prjact start here */
+.project
+{
+    display: flex;
+    height: 400px;
+    margin-top: 2%;
+}
+
+.pro1
+{
+    display: flex;
+    margin-left: 10%;
+}
+
+.pro2
+{
+    display: flex;
+}
+
+.pro1 h2
+{
+    margin-bottom: 6px;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    color: rgb(175, 100, 245);
+}
+
+.pro1 p
+{
+    margin-top: 2%;
+    font-size: 1rem;
+    color: #fff;
+    width: 89%;
+}
+.pro1 a{
+    color: #fff;
+    text-decoration: none;
+}
+.pro2 h2
+{
+    margin-bottom: 6px;
+    font-size: 1.5rem;
+    margin-top: 4%;
+    color: rgb(175, 100, 245);
+}
+
+.pro2 p
+{
+    margin-top: 2%;
+    font-size: 1rem;
+    color: #fff;
+    width: 89%;
+}
+.pro2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.project hr
+{
+    width: 77%;
+    margin-left: -2%;
+    color: rgb(175, 100, 245);
+    margin-top: 7%;
+}
+/* footer */
+.last{
+    position: relative;
+    height: 250px;
+    background-color:rgb(58, 4, 108) ;
+}
+.last .par{
+    position: absolute;
+    margin-left:10%;
+    margin-top: 2%;
+}
+.par p{
+    background-color:rgb(58, 4, 108)  ;
+    font-size: 1.8rem;
+    color: #fff;
+    padding-bottom: 5px;
+}
+.par h1{
+    background-color:rgb(58, 4, 108)  ;
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 5px;
+    
+}
+.par h2{
+    background-color:rgb(58, 4, 108)  ;
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 4px;
+}
+.par h3{
+    background-color:rgb(58, 4, 108)  ;
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 4px;
+}
+.par h4{
+    background-color:rgb(58, 4, 108)  ;
+    font-size: 1rem;
+    color: #fff;
+    padding-bottom: 4px;
+}
+.par span{
+    background-color:rgb(58, 4, 108)  ;
+    color: rgb(175, 100, 245);
+}
+footer hr{
+    color:#fff;
+}
+.end{
+    margin-top: 197px;
+    background-color: rgb(58, 4, 108) ;
+}
+.end p{
+    background-color: rgb(58, 4, 108) ;
+    text-align: center;
+    color:#fff;
+}
+.end hr{
+    color:#fff;
+    margin-top: 10px;
+}
